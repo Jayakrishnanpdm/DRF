@@ -20,4 +20,5 @@ from . import views
 
 urlpatterns = [
     path('', views.book_list_create,name='book_list_create'),
+    path('book_detail/<pk>', views.book_detail,name='book_detail'),
 ]
